@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#particles-js{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+}
+.linktree-container *{
+    font-family: 'Montserrat', sans-serif;
+      color: inherit;
+}
+.linktree-container{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    width: 80%;
+    background-color: rgba(14, 13, 13, 0.842);
+    top: 20%;
+}
+.linktree-wrapper {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: flex-start;
+    padding: 10px 15px;
+    width: 100%;
+  }
+.linktree-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.linktree-logo{
+    width: 70px;
+    height: 70px;
+    margin: 5px 15px;
+    border-radius: 50%;
+}
+.linktree-title{
+    max-width: 100%;
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.lintree-profile{
+    margin-bottom: 10px !important;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    word-break: break-word;
+}
+.linktree-content{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.linktree-links{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+    gap: 16px;
+}
+.linktree-links-item a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.932);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    padding: 16px 5px;
+    vertical-align: middle;
+}
+.linktree-links-item a:hover{
+    background-color: rgba(58, 55, 55, 0.39);
+    color: white;
+    text-decoration: unset;
+}
+.linktree-links-item a *{
+    margin: 0;
+}
+.linktree-links-item{
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-weight: 500;
+}
+.linktree-social-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.linktree__social--links__logo{
+    padding: 8px;
+    margin: 10px 15px;
+    background-color: #c4c4c4;
+    border-radius: 10%;
+}
